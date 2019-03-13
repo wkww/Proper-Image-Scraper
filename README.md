@@ -5,7 +5,7 @@ Modern websites (2018) load images dynamically using javascript and frameworks s
 
 Instead, we take advantage of the webdriver framework to download images as the browser loads them dynamically onto the DOM. You can view the files that the browser is loading under the network section of your browser's developer console. By pulling images from the browser, we can even pull sprite sheets. 
 
-Use your favorite webdriver Chrome, Firefox etc. or the recursive image scraper which is a Depth-First-Search(DFS) traversal of a site tree, so limit the depth wisely. 
+Use your favorite webdriver Chrome, Firefox etc. in conjunction with the recursive link scraper which is a Depth-First-Search(DFS) traversal of a site tree, so limit the depth wisely. 
 
 ##### Example scrape of a popular search engine home page:
  
